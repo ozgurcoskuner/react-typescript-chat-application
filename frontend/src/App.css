@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 500px;
+  height: 500px;
+  margin: 20px auto;
+  display: flex;
+  flex-flow: column;
+  box-shadow: 2px 10px 22px -1px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 2px 10px 22px -1px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 2px 10px 22px -1px rgba(0, 0, 0, 0.69);
+}
+
+.chat-header {
+  height: 20px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.chat-body {
+  height: 500px;
+  overflow-y: scroll;
+  padding: 10px 0;
+  overflow-x: hidden;
+  background-color: whitesmoke;
+}
+
+.chat-footer {
+  width: 100%;
+  border-top: 1px solid black;
+}
+.input-field {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 2px;
+}
+
+input {
+  width: 45%;
+}
+
+button {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 0;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.801);
+}
+.image {
+  margin-top: 2px;
+  position: relative;
+}
+.far{
+  position: absolute;
+  bottom:2px;
+  right:2px;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.image img {
+  width: 240px;
+  height: auto;
+  display: block;
+}
+
+.text {
+  border: 1px solid black;
+  background-color: white;
+  width: 45%;
+  word-wrap: break-word;
+  padding: 4px;
+  margin-top: 2px;
+  text-align: left;
+  border-radius: 2px 2px 10px 2px;
+}
+
+.left {
+  margin-left: 1px;
+}
+
+.right {
+  margin-left: 240px;
+}
